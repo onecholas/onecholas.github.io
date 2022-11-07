@@ -2260,6 +2260,10 @@ input, select, textarea {
 				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#695a46, #705b20);
 			}
 
+			.main > .content.style5 {
+				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#705b20, #534318);
+			}
+
 			.main > .content.style4 {
 				padding-top: 0;
 				background: #fff;

@@ -2262,7 +2262,7 @@ input, select, textarea {
 
 			.main > .content.style5 {
 				padding-top: 0;
-				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#705b20, #534318);
+				background: linear-gradient(180deg,#705b20, #534318);
 			}
 
 			.main > .content.style4 {

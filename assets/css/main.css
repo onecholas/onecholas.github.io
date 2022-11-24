@@ -211,7 +211,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: start;
 	}
 
 	header {
@@ -2089,10 +2089,10 @@ input, select, textarea {
 /* Feature Icon */
 
 	.feature-icon {
-		display: inline-block;
+		display: block;
 		position: relative;
 		padding-bottom: 5em;
-		margin-bottom: 2.75em;
+		margin-bottom: .75em;
 		cursor: default;
 	}
 

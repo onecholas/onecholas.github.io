@@ -2249,7 +2249,7 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, linear-gradient(180deg, #45482a, #695a46); /* url('images/overlay.png'), */
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, linear-gradient(180deg, #71326c, #6d6e70); /* url('images/overlay.png'), */
 			}
 
 			.main > .content.style2 {
@@ -2257,7 +2257,7 @@ input, select, textarea {
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#695a46, #705b20);
+				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#6d6e70, #2e5f62);
 			}
 
 			.main > .content.style5 {

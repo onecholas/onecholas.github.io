@@ -2220,20 +2220,24 @@ input, select, textarea {
 		.main > header {
 			background: #fff;
 			text-align: center;
-			padding: 5em 0 5em 0;
+			padding: 3em 0 3em 0;
 			margin: 0;
 		}
 
 			.main > header h2 {
+				text-align: left;
 				font-size: 2.25em;
 				font-weight: 100;
 				margin-bottom: 0;
+				padding-left: 1em;
+				padding-right: 1em;
 			}
 
 			.main > header p {
-				margin: 2em 0 0 0;
-				padding: 0;
-				text-align: center;
+				margin: 1.2em 0 0 0;
+				text-align: left;
+				padding-left: 2.3em;
+				padding-right: 2.3em;
 			}
 
 		.main > .content {
@@ -2242,6 +2246,11 @@ input, select, textarea {
 
 			.main > .content h3 {
 				font-size: 1.5em;
+				text-align: left;
+			}
+
+			.main > .content p {
+				text-align: left;
 			}
 
 			.main > .content.dark {
@@ -2257,12 +2266,12 @@ input, select, textarea {
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#6d6e70, #2e5f62);
+				background: url("images/bgtr.svg") top right no-repeat, linear-gradient(180deg,#6d6e70, #476566);
 			}
 
 			.main > .content.style5 {
 				padding-top: 0;
-				background: linear-gradient(180deg,#705b20, #534318);
+				background: linear-gradient(180deg,#476566, #2e5f62);
 			}
 
 			.main > .content.style4 {

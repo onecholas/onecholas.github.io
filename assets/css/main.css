@@ -2563,18 +2563,21 @@ input, select, textarea {
 	  
 	  .timeline__date--right {
 		text-align: right;
+		margin-right: 1.5em;
 	  }
 
 	  .timeline__position--right {
 		text-align: right;
 		font-size: 1.5em;
 		padding-bottom: 0.5em;
+		margin-right: 1em;
 	  }
 	  
 	  .timeline__title {
 		margin-bottom: 0.5em;
 		font-size: 1.15em;
 		font-weight: bold;
+		margin-left: 1em;
 	  }
 	  
 	  .timeline__paragraph {
@@ -2582,5 +2585,7 @@ input, select, textarea {
 		font-size: 1em;
 		line-height: 1.75em;
 		color: #cbd0cf;
+		margin-bottom: 3em;
+		margin-left: 1em;
 	  }
 	  

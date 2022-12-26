@@ -2279,6 +2279,10 @@ input, select, textarea {
 				background: #fff;
 			}
 
+			.main > .content.style6 {
+				background: linear-gradient(180deg, #71326c, #2e5f62)
+			}
+
 /* Footer */
 
 	#footer {

@@ -2544,7 +2544,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 	  }
-	  s
+
 	  .timeline__point {
 		position: absolute;
 		top: 0;
@@ -2587,5 +2587,29 @@ input, select, textarea {
 		color: #cbd0cf;
 		margin-bottom: 3em;
 		margin-left: 1em;
+	  }
+
+	  .timeline__block {
+		margin-bottom: 5em;
+	  }
+
+	  div img {
+		transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+	  }
+	  div img {
+		float: left;
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+	  }
+	  div img:hover {
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%);
+		-moz-filter: grayscale(0%);
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
 	  }
 	  

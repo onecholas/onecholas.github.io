@@ -1,160 +1,131 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>I'm Nick Hsu</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header" class="dark">
-				<header>
-					<h1>Hi, I'm Nick Hsu.</h1>
-					<p>I'm a Computer Engineering Student at Northwestern University.</p>
-				</header>
-				<footer>
-					<a href="#first" class="button scrolly">Welcome to my portfolio.</a>
-				</footer>
-			</section>
+<head>
+	<title>I'm Nick Hsu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-		<!-- First -->
-			<section id="first" class="main">
-				<header>
-					<div class="container">
-						<h2>About Me.</h2>
-						<p>I'm a second-year at Northwestern University, on track to complete the Computer 
-						Engineering BS/MS program by 2025. My interests lie primarily in hardware, but 
-						I love learning about anything and everything computing-related. Feel free to explore
-						the rest of my portfolio!
-						</p>
+<body class="is-preload">
+
+	<!-- Header -->
+	<section id="header" class="dark">
+		<header>
+			<h1>Hi, I'm <span class="auto-type"></span></h1>
+			<p>I'm a Computer Engineering Student at Northwestern University.</p>
+		</header>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed(".auto-type", {
+				strings: ["Nick Hsu.", "a Hardware Enthusiast.", "a Software Developer."],
+				typeSpeed: 150,
+				backSpeed: 300,
+				loop: true
+			})
+		</script>
+
+		<footer>
+			<a href="#first" class="button scrolly">Welcome to my portfolio.</a>
+		</footer>
+	</section>
+
+	<!-- First -->
+	<section id="first" class="main">
+		<header>
+			<div class="container">
+				<h2>About Me.</h2>
+				<p>I'm a second-year at Northwestern University, on track to complete the Computer
+					Engineering BS/MS program by 2025. My interests lie primarily in hardware, but
+					I love learning about anything and everything computing-related. Feel free to explore
+					the rest of my portfolio!
+				</p>
+			</div>
+		</header>
+		<div class="content dark style1 featured">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-12-narrow">
+						<section>
+							<header>
+								<h3>Education</h3>
+							</header>
+							<p>I'm currently studying towards my BS/MS in Computer Engineering at Northwestern
+								University. I've
+								currently taken courses in CMOS Circuit Design, Signals & Systems, and Solid State
+								Engineering.
+							</p>
+						</section>
 					</div>
-				</header>
-				<div class="content dark style1 featured">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<header>
-										<h3>Education</h3>
-									</header>
-									<p>I'm currently studying towards my BS/MS in Computer Engineering at Northwestern University. I've
-										currently taken courses in CMOS Circuit Design, Signals & Systems, and Solid State Engineering.		
-									</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									
-									<header>
-										<h3>Skillset</h3>
-									</header>
-									<p>I'm constantly improving on my technical skillset in both hardware and programming -- 
-										I have experience in Python, C/C++ and HTML. I've also had 5+ 
-										years of leadership experience, and always look forward to working on a team.
-									</p>
-									<!-- <span class="feature-icon"><img src="images/c++resize.png"></span></span> -->
-									<!-- <span class="feature-icon"></span> -->
-										<!-- <img src="images/c++resize.png"></span> -->
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									
-									<header>
-										<h3>Interests</h3>
-									</header>
-									<p>More personally, I love playing and watching	basketball, weightlifting,
-										playing the violin, skiing during the winter, and building computers for 
-										friends whenever I get the chance!
-									</p>
-								</section>
-							</div>
-							<div class="col-12">
-							</div>
-						</div>
+					<div class="col-4 col-12-narrow">
+						<section>
+
+							<header>
+								<h3>Skillset</h3>
+							</header>
+							<p>I'm constantly improving on my technical skillset in both hardware and programming --
+								I have experience in Python, C/C++ and HTML. I've also had 5+
+								years of leadership experience, and always look forward to working on a team.
+							</p>
+							<!-- <span class="feature-icon"><img src="images/c++resize.png"></span></span> -->
+							<!-- <span class="feature-icon"></span> -->
+							<!-- <img src="images/c++resize.png"></span> -->
+						</section>
+					</div>
+					<div class="col-4 col-12-narrow">
+						<section>
+
+							<header>
+								<h3>Interests</h3>
+							</header>
+							<p>More personally, I love playing and watching basketball, weightlifting,
+								playing the violin, skiing during the winter, and building computers for
+								friends whenever I get the chance!
+							</p>
+						</section>
+					</div>
+					<div class="col-12">
 					</div>
 				</div>
-			</section>
+			</div>
+		</div>
+	</section>
 
-		<!-- Second -->
-			<!-- <section id="second" class="main">
-				<header>
-					<div class="container">
-						<h2>Technical and Work Experience</h2>
-						<p>I've worked in both a semiconductor fabrication plant and an early-stage startup, with roles related
-						to robotics (programming, deployment, and implementation). In the future, I hope to work in hardware
-						design and verification, specifically in chip architecture.
+	<!-- Third -->
+	<section id="third" class="main">
+		<header>
+			<div class="container">
+				<h2>Technical and Work Experience.</h2>
+				<p>I've worked in both a semiconductor fabrication plant and an early-stage startup, with roles related
+					to robotics (programming, deployment, and implementation). In the future, I hope to work in hardware
+					verification and design, specifically in chip architecture.</p>
+			</div>
+		</header>
+	</section>
+
+	<!-- Third -->
+	<section id="fourth" class="main">
+		<div class="content dark style3">
+			<div class="container">
+				<div class="timeline">
+					<div class="timeline__component">
+						<div class="timeline__position timeline__position--right">Robotics and Automation Intern</div>
+						<div class="timeline__date timeline__date--right">Summer 2022</div>
+					</div>
+					<div class="timeline__middle">
+						<div class="timeline__point"></div>
+					</div>
+					<div class="timeline__component">
+						<h2 class="timeline__title"><a href="https://gf.com">GlobalFoundries</a></h2>
+						<p class="timeline__paragraph">
+							Developed Python scripts to deploy Boston Dynamics' Spot mobile robot in the sub-fabrication
+							environment.
+							Revised demonstrations involving autonomous pick-and-place using
+							TensorFlow, NumPy, and Pandas. Analyzed pumps, blowers, and blockages through SOLIDWORKS and
+							Excel.
 						</p>
-					</div>
-				</header>
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-									tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-									vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-									augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-									lorem ipsum dolor placerat magna tempus feugiat.</p>
-									<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-									euismod lorem ipsum dolor.</p>
-									<footer>
-										<a href="#third" class="button scrolly">Accumsan nisi tempor</a>
-									</footer>
-								</section>
-							</div>
-							<div class="col-8 col-12-narrow">
-								<div class="row">
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-			</section>
-
-		<!-- Third -->
-			<section id="third" class="main">
-				<header>
-					<div class="container">
-						<h2>Technical and Work Experience.</h2>
-						<p>I've worked in both a semiconductor fabrication plant and an early-stage startup, with roles related
-							to robotics (programming, deployment, and implementation). In the future, I hope to work in hardware
-							verification and design, specifically in chip architecture.</p>
-					</div>
-				</header>
-			</section>
-
-		<!-- Third -->
-			<section id="fourth" class="main">
-				<div class="content dark style3">
-					<div class="container">
-						<div class="timeline">
-							<div class="timeline__component">
-							  <div class="timeline__position timeline__position--right">Robotics and Automation Intern</div>
-							  <div class="timeline__date timeline__date--right">Summer 2022</div>
-							</div>
-							<div class="timeline__middle">
-							  <div class="timeline__point"></div>
-							</div>
-							<div class="timeline__component">
-							  <h2 class="timeline__title"><a href="https://gf.com">GlobalFoundries</a></h2>
-							  <p class="timeline__paragraph">
-									Developed Python scripts to deploy Boston Dynamics' Spot mobile robot in the sub-fabrication environment.
-								    Revised demonstrations involving autonomous pick-and-place using
-									TensorFlow, NumPy, and Pandas. Analyzed pumps, blowers, and blockages through SOLIDWORKS and Excel.
-							  </p>
-							  <!-- Full Description: Working on a medium-sized team, I led the development of standardized emergency
+						<!-- Full Description: Working on a medium-sized team, I led the development of standardized emergency
 									eye wash station inspections into Spot mobile robot missions through Python programming
 									and the Boston Dynamics API. I also developed a comprehensive training 
 									manual covering Python basics and basic mission implementation. I integrated and deployed 
@@ -163,55 +134,85 @@
 									LabelImg, NumPy, and Pandas. Within the sub-fabrication	environment, I designed testing methodology 
 									to document and evaluate 120 different blockage and interference types, as well as inspected pumps, 
 									blowers, and other support equipment. -->
-							</div>
-							<div class="timeline__component">
-								<div class="timeline__position timeline__position--right">Robotics Intern</div>
-								<div class="timeline__date timeline__date--right">Summer 2021</div>
-							  </div>
-							  <div class="timeline__middle">
-								<div class="timeline__point"></div>
-							  </div>
-							  <div class="timeline__component">
-								<h2 class="timeline__title"><a href="https://www.telamon.com/robotics/">Telamon Robotics</a></h2>
-								<p class="timeline__paragraph">
-									Led design and programming of cobot demonstrations. Developed RoboDK scripts for autonomous deployment. Aided in 
-									construction of workstations, machine tending cobot stand, and industrial machine solution.
-								</p>
-								<!-- Full Description: Working on a small-sized startup-style team, I led the design and programming of cobot demonstrations 
+					</div>
+					<div class="timeline__component">
+						<div class="timeline__position timeline__position--right">Robotics Intern</div>
+						<div class="timeline__date timeline__date--right">Summer 2021</div>
+					</div>
+					<div class="timeline__middle">
+						<div class="timeline__point"></div>
+					</div>
+					<div class="timeline__component">
+						<h2 class="timeline__title"><a href="https://www.telamon.com/robotics/">Telamon Robotics</a>
+						</h2>
+						<p class="timeline__paragraph">
+							Led design and programming of cobot demonstrations. Developed RoboDK scripts for autonomous
+							deployment. Aided in
+							construction of workstations, machine tending cobot stand, and industrial machine solution.
+						</p>
+					</div>
+					<div class="timeline__block"></div>
+					<!-- Full Description: Working on a small-sized startup-style team, I led the design and programming of cobot demonstrations 
 									incorporating pick-and-place, palletization, visual servoing, machine
 									tending, and object quality inspections using Techman collaborative robots and OnRobot grippers. Using 
 									RoboDK, I also developed multiple projects involving laser cutting, pick-and-place, and quality inspection.
 									Furthermore, I aided in the construction of 6 educational cobot workstations, a machine tending cobot stand, 
 									and an industrial tape dispenser & cutting machine. I also researched and compiled presentations on emerging software 
 									and hardware competition and presented findings to Vice President, Sales Manager, and software developers using PowerPoint. -->
-							  </div>							  
-					</div>
-				</div>	
-			</section>
-
-	
-
-		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="mailto:nickhsu2025@u.northwestern.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
-					<li><a href="https://linkedin.com/in/nicholashsu9" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/onecholas" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-				</ul>
-				<div class="copyright">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
 				</div>
-			</section>
+				<div class="content dark style2">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-narrow">
+								<section>
+									<h3>My Personal Projects</h3>
+									<p>My current projects range from game development to hardware, and everything in between. 
+										Feel free to check out any of my current developments!
+									</p>
+									<footer>
+										<a href="#third" class="button scrolly">Check out my</a>
+									</footer>
+								</section>
+							</div>
+							<div class="col-8 col-12-narrow">
+								<div class="row">
+									<div class="col-6"><a href="https://github.com/onecholas/2048_PlusPlus" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
+									<!-- <div class="col-6"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="mailto:nickhsu2025@u.northwestern.edu" class="icon fa-envelope"><span
+						class="label">Twitter</span></a></li>
+			<li><a href="https://linkedin.com/in/nicholashsu9" class="icon brands fa-linkedin"><span
+						class="label">LinkedIn</span></a></li>
+			<li><a href="https://github.com/onecholas" class="icon brands fa-github"><span
+						class="label">GitHub</span></a></li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; Nicholas Hsu. All rights reserved.</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

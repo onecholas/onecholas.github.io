@@ -197,9 +197,9 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.25em #e6e6e6;
-		padding: 1em 0 1em 2em;
 		font-style: italic;
+		font-size: 0.9em;
+		text-align: left;
 	}
 
 	.dark blockquote {
@@ -2243,6 +2243,16 @@ input, select, textarea {
 		.main > .content {
 			padding: 6em 0 6em 0;
 		}
+			.main > .content h4 {
+				font-size: 1.5em;
+				text-align: left;
+			}
+
+			.main > .content h6 {
+				border-bottom: solid 0.15em #e6e6e6;
+				padding-top: 0.2em;
+				padding-bottom: 0.7em;
+			}
 
 			.main > .content h3 {
 				font-size: 1.5em;
@@ -2281,6 +2291,10 @@ input, select, textarea {
 
 			.main > .content.style6 {
 				background: linear-gradient(180deg, #71326c, #2e5f62)
+			}
+
+			.main > .content.style7 {
+				background: linear-gradient(180deg, #476566, #3C2739)
 			}
 
 /* Footer */

@@ -2240,6 +2240,12 @@ input, select, textarea {
 				padding-right: 2.3em;
 			}
 
+			.main > p b {
+				text-align: left;
+				font-size: smaller; 
+				line-height:150%;
+			}
+
 		.main > .content {
 			padding: 6em 0 6em 0;
 		}

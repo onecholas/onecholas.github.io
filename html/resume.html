@@ -4,12 +4,15 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="/assets/css/main.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf_viewer.min.css" />
+        <script src="../../assets/js/pdf.js" defer></script>
     </head>
     
     <body class="is-preload">    
         
         <!-- First -->
-        <section id="first" class="main">
+        <!-- <section id="first" class="main">
             <div class="content dark style6 featured">
                 <div class="container">
                     <section>
@@ -17,7 +20,12 @@
                     </section>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <div id="pdf-container" style="position: relative;">
+            <canvas id="pdf-canvas" width="400"></canvas>
+            <div id="text-layer" class="textLayer"></div>
+        </div>
 
     </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>I'm Nick Hsu</title>
+	<title>Nick Hsu</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -13,289 +13,26 @@
 	<!-- Header -->
 	<section id="header" class="dark">
 		<header>
-			<h1>Hi, I'm <span class="auto-type"></span></h1>
-			<p>I'm a Computer Engineering Student at Northwestern University.</p>
+			<div class="text-container">
+				<h1>Hi, I'm Nick Hsu.</h1>
+				<p>I'm <span class="auto-type"></span></p>
+				<footer>
+					<a href="./html/about.html" class="button scrolly">Welcome to my portfolio.</a>
+				</footer>
+			</div>
 		</header>
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 		<script>
 			var typed = new Typed(".auto-type", {
-				strings: ["Nick Hsu.", "a Hardware Enthusiast.", "a Software Developer."],
-				typeSpeed: 150,
-				backSpeed: 300,
+				strings: ["an FPGA Engineer.", "a Software Developer.", "a Student at Northwestern.", "an Outdoors Enthusiast."],
+				typeSpeed: 70,
+				backSpeed: 30,
 				loop: true
 			})
 		</script>
-
-		<footer>
-			<a href="#first" class="button scrolly">Welcome to my portfolio.</a>
-		</footer>
 	</section>
 
-	<!-- First -->
-	<section id="first" class="main">
-		<header>
-			<div class="container" style="padding-bottom:3em;">
-				<h2>About Me.</h2>
-				<p>I'm a third-year at Northwestern University, on track to complete the Computer
-					Engineering B.S./M.S. program by 2025. My interests lie primarily in hardware, but
-					I love learning about anything and everything computing-related. Feel free to explore
-					the rest of my portfolio!
-				</p>
-			</div>
-			<a href="html/resume.html" class="button scrolly">Check Out My Resume.</a>
-		</header>
-		<div class="content dark style1 featured">
-			<div class="container">
-				<div class="row">
-					<div class="col-4 col-12-narrow">
-						<section>
-							<header>
-								<h3>Education</h3>
-							</header>
-							<p>I'm currently finishing up my B.S. in Computer Engineering, set to start my 
-								M.S. in Computer Engineering by April 2024. I'm also interested in pursuing a doctorate
-								degree after the completion of my master's degree. I've currently taken courses in CMOS Circuit Design, 
-								Signals & Systems, AI, Computer Systems, and Solid State Engineering.
-							</p>
-						</section>
-					</div>
-					<div class="col-4 col-12-narrow">
-						<section>
-							<header>
-								<h3>Skillset</h3>
-							</header>
-							<p>I'm constantly improving on my technical skillset in both hardware and software --
-								I have experience in Python, Verilog, C/C++ and HTML. I've also had experience in structured
-								problem solving in semiconductor manufacturing, had 5+ years of leadership experience, and 
-								always look forward to working on a team.
-							</p>
-						</section>
-					</div>
-					<div class="col-4 col-12-narrow">
-						<section>
-
-							<header>
-								<h3>Interests</h3>
-							</header>
-							<p>More personally, I love playing and watching 
-								basketball, weightlifting, playing the violin, skiing during the winter, 
-								and building computers for friends whenever I get the chance. I'm also a huge
-								foodie so wherever I am, you can bet that I'm trying all of the restaurants
-								that I can!
-							</p>
-						</section>
-					</div>
-					<div class="col-12">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Third -->
-	<section id="third" class="main">
-		<header>
-			<div class="container">
-				<h2>Technical and Work Experience.</h2>
-				<p>I've worked in a semiconductor fab and an early-stage startup, with roles related
-					to robotics (programming, deployment, and implementation) and process integration.
-					In the future, I hope to work in hardware verification or design, but I'm open
-					to all opportunities to learn about semiconductors!
-				</p>
-			</div>
-		</header>
-	</section>
-
-	<!-- Third -->
-	<section id="fourth" class="main">
-		<div class="content dark style3">
-			<div class="container">
-				<div class="timeline">
-					<div class="timeline__component">
-						<div class="timeline__position timeline__position--right">Process Integration Intern</div>
-						<div class="timeline__date timeline__date--right">Summer 2023</div>
-					</div>
-					<div class="timeline__middle">
-						<div class="timeline__point"></div>
-					</div>
-					<div class="timeline__component">
-						<h2 class="timeline__title"><a href="https://gf.com">GlobalFoundries</a></h2>
-						<p class="timeline__paragraph">
-							Supported FEOL and BEOL Integration teams in in-line wafer defect monitoring and G85 wafer mapping, 
-							standardized multiple 350 nm wafer flows using structured problem solving through developing FMEAs and 
-							running experiments.
-						</p>
-						<!-- Full Description: This is the full description LOL-->
-					</div>
-					<div class="timeline__component">
-						<div class="timeline__position timeline__position--right">Robotics and Automation Intern</div>
-						<div class="timeline__date timeline__date--right">Summer 2022</div>
-					</div>
-					<div class="timeline__middle">
-						<div class="timeline__point"></div>
-					</div>
-					<div class="timeline__component">
-						<h2 class="timeline__title"><a href="https://gf.com">GlobalFoundries</a></h2>
-						<p class="timeline__paragraph">
-							Developed Python scripts to deploy Boston Dynamics' Spot mobile robot in the sub-fabrication
-							environment.
-							Revised demonstrations involving autonomous pick-and-place using
-							TensorFlow, NumPy, and Pandas. Analyzed pumps, blowers, and blockages through SOLIDWORKS and
-							Excel.
-						</p>
-						<!-- Full Description: Working on a medium-sized team, I led the development of standardized emergency
-									eye wash station inspections into Spot mobile robot missions through Python programming
-									and the Boston Dynamics API. I also developed a comprehensive training 
-									manual covering Python basics and basic mission implementation. I integrated and deployed 
-									demonstrations incorporating autonomous	pick-and-place with the Spot mobile robot created through 
-									evaluating a pre-trained machine learning model with the TensorFlow object detection API, 
-									LabelImg, NumPy, and Pandas. Within the sub-fabrication	environment, I designed testing methodology 
-									to document and evaluate 120 different blockage and interference types, as well as inspected pumps, 
-									blowers, and other support equipment. -->
-					</div>
-					<div class="timeline__component">
-						<div class="timeline__position timeline__position--right">Robotics Intern</div>
-						<div class="timeline__date timeline__date--right">Summer 2021</div>
-					</div>
-					<div class="timeline__middle">
-						<div class="timeline__point"></div>
-					</div>
-					<div class="timeline__component">
-						<h2 class="timeline__title"><a href="https://www.telamon.com/robotics/">Telamon Robotics</a>
-						</h2>
-						<p class="timeline__paragraph">
-							Led design and programming of cobot demonstrations. Developed RoboDK scripts for autonomous
-							deployment. Aided in
-							construction of workstations, machine tending cobot stand, and industrial machine solution.
-						</p>
-					</div>
-					<div class="timeline__block"></div>
-					<!-- Full Description: Working on a small-sized startup-style team, I led the design and programming of cobot demonstrations 
-									incorporating pick-and-place, palletization, visual servoing, machine
-									tending, and object quality inspections using Techman collaborative robots and OnRobot grippers. Using 
-									RoboDK, I also developed multiple projects involving laser cutting, pick-and-place, and quality inspection.
-									Furthermore, I aided in the construction of 6 educational cobot workstations, a machine tending cobot stand, 
-									and an industrial tape dispenser & cutting machine. I also researched and compiled presentations on emerging software 
-									and hardware competition and presented findings to Vice President, Sales Manager, and software developers using PowerPoint. -->
-				</div>
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<h3>My Personal Projects</h3>
-									<p>My current projects range from game development to hardware, and everything in between. 
-										Feel free to check out any of my current developments!
-									</p>
-								</section>
-							</div>
-							<div class="col-8 col-12-narrow">
-								<div class="row">
-									<div class="col-4"><a href="https://github.com/onecholas/2048_PlusPlus" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="col-4"><a href="https://github.com/onecholas/brickbreaker" class="image fit"><img src="images/brickbreaker.jpg" alt="" /></a></div>
-									<div class="col-4"><a href="https://github.com/onecholas/skimonitor" class="image fit"><img src="images/SkiMonitor.jpg" alt="" /></a></div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>				
-	</section>
-
-	<!-- Fourth -->
-	<section id="third" class="main">
-		<header>
-			<div class="container">
-				<h2>Extracurricular Experience.</h2>
-				<p>Outside of school and work, my interests lie in anything from volunteer work to performing 
-					with an orchestra in front of crowds, to furthering Taiwanese culture!</p>
-			</div>
-		</header>
-	</section>
-
-	<!-- Fifth -->
-	<section id="fourth" class="main">
-		<div class="content dark style7">
-			<div class="container" style="width:55%">
-				<section>
-					<header>
-						<h4>Northwestern University Residential Services</h4>
-						<h6>Residential Assistant</h6>
-					</header>
-					<p style="font-size: smaller; line-height:150%;">
-						Led regular events at Ayers Residential College of Commerce and Industry, 
-						mentored incoming first-year students, facilitated positive interactions between peers.
-					</p>
-				</section>
-				<section>
-					<header>
-						<h4>Northwestern University Financial Technologies Club</h4>
-						<h6>Core Developer</h6>
-					</header>
-					<p style="font-size: smaller; line-height:150%;">
-						Developed Python scripts to monitor server health, integrated Slack bot for custom alert system.
-					</p>
-				</section>
-				<!-- <section>
-					<header>
-						<h4>Northwestern University IEEE Student Branch</h4>
-						<h6>Hardware Team Member</h6>
-					</header>
-					<p style="font-size: smaller; line-height:150%;">
-						Developed 
-					</p>
-				</section> -->
-				<section>
-					<header>
-						<h4>Northwestern University HKN (Eta Kappa Nu)</h4>
-						<h6>Member</h6>
-					</header>
-					<p style="font-size: smaller; line-height:150%;">
-						Mentored students interested in Northwestern ECE.
-					</p>
-				</section>
-				<section>
-					<header>
-						<h4>Northwestern University Taiwanese American Student Association</h4>
-						<h6>Secretary</h6>
-					</header>
-					<p style="font-size: smaller; line-height:150%;">
-						Set up quarterly events (e.g. Taiwanese Night Market, Celebrasia, etc.), 
-						fostered community by participating in weekly meetings.
-					</p>
-				</section>
-				<section>
-					<header>
-						<h4>Philharmonia Orchestra</h4>
-						<h6>Second Violin</h6>
-					</header>
-					<p style="font-size: smaller; line-height:150%;">
-						Performed at quarterly concerts with repotoire including Dvorak's 
-						8th Symphony to Tchaikovsky's 4th Symphony, as well as Beethoven's 5th Symphony,
-						assisted with set up of rehearsals.
-					</p>
-				</section>
-			</div>
-		</div>
-	</section>
-
-	<!-- Footer -->
-	<section id="footer">
-		<ul class="icons">
-			<li><a href="mailto:nickhsu2025@u.northwestern.edu" class="icon fa-envelope"><span
-						class="label">Twitter</span></a></li>
-			<li><a href="https://linkedin.com/in/nicholashsu9" class="icon brands fa-linkedin"><span
-						class="label">LinkedIn</span></a></li>
-			<li><a href="https://github.com/onecholas" class="icon brands fa-github"><span
-						class="label">GitHub</span></a></li>
-		</ul>
-		<div class="copyright">
-			<ul class="menu">
-				<li>&copy; Nicholas Hsu. All rights reserved.</li>
-			</ul>
-		</div>
-	</section>
+	
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
